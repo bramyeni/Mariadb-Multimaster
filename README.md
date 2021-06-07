@@ -6,7 +6,7 @@ Ensure Donor and Joiner node are able to communicate each other, otherwise see m
 ## Diagram 
 <pre>
  +-----------------------------------+                                                      
- |             Azure/Cloued Provider |                                                          
+ |             Azure/Cloud Provider  |                                                          
  |    +-------------------------+    |                                                          
  |    |   MariaDB Multimaster   |    |                                                          
  |    |   Donor Node            |    |                                                          
