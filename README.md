@@ -1,8 +1,9 @@
 # Mariadb Multimaster using Galera Cluster
 ## Pre-requisites
-Ensure Donor and Joiner nodes are able to communicate each other, otherwise see my site-site vpn setup within other repo of my github here
+Ensure Donor and Joiner nodes are able to communicate each other, otherwise see my site-site vpn setup within other repo of my github <a href=https://github.com/bramyeni/openvpn">here</a>
 
 ## Assumptions
+<pre>
 Cloud Server private IP : 10.2.0.4
 Cloud server public IP  : 20.33.100.22
 cloud server hostname   : bramdocker.westus.cloudapp.azure.com
@@ -10,6 +11,7 @@ cloud server hostname   : bramdocker.westus.cloudapp.azure.com
 local client private IP : 192.168.0.17
 local client public IP  : 202.111.222.11
 local client hostname   : bramlocal
+</pre>
 
 ## Diagram 
 <pre>
