@@ -1,6 +1,6 @@
 # Mariadb Multimaster using Galera Cluster
 ## Pre-requisites
-Ensure Donor and Joiner node are able to communicate each other, otherwise see my site-site vpn setup within other repo of my github here
+Ensure Donor and Joiner nodes are able to communicate each other, otherwise see my site-site vpn setup within other repo of my github here
 
 ## Assumptions
 Cloud Server private IP : 10.2.0.4
@@ -48,3 +48,17 @@ local client hostname   : bramlocal
 |                       On-Premise   |                                                          
 +------------------------------------+                                                          
 </pre>
+
+## Dockerfile
+I have created a Dockerfile by pulling base image of Alpine-Edge, this is the smallest image for mariadb galera , yet it has all functionality of galera multimaster
+
+## How to Build the image
+Get a dockerfile from this repo, let say you download it into /opt
+<pre>
+cd /opt
+docker build --tag galera-mariadb -f ./Dockerfile /mnt
+
+or
+
+docker build --tag galera-mariadb .
+
