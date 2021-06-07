@@ -1,6 +1,6 @@
 # Mariadb Multimaster using Galera Cluster
 ## Pre-requisites
-Ensure Donor and Joiner nodes are able to communicate each other, otherwise see my site-site vpn setup within other repo of my github <a href=https://github.com/bramyeni/openvpn">here</a>
+Ensure Donor and Joiner nodes are able to communicate each other, otherwise see my site-site vpn setup within other repo of my github here => https://github.com/bramyeni/openvpn
 
 ## Assumptions
 <pre>
