@@ -56,11 +56,14 @@ I have created a Dockerfile by pulling base image of Alpine-Edge, this is the sm
 
 ## How to Build the image
 Get a dockerfile from this repo, let say you download it into /opt
+
+## For Arch linux base docker container image
 <pre>
 cd /opt
-docker build --tag galera-mariadb -f ./Dockerfile /mnt
+docker build --tag galera-mariadb -f ./Dockerfile-gmariadb-arch /mnt
 
 or
 
-docker build --tag galera-mariadb .
+## For Alpine linux base docker container image
+docker build --tag galera-mariadb -f ./Dockerfile-gmariadb-alpine /mnt
 
