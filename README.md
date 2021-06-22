@@ -1,4 +1,6 @@
 # Mariadb Multimaster using Galera Cluster
+Setting up Mariadb multimaster replication with ease
+
 ## Pre-requisites
 Ensure Donor and Joiner nodes are able to communicate each other, otherwise see my site-site vpn setup within other repo of my github here => https://github.com/bramyeni/openvpn
 
