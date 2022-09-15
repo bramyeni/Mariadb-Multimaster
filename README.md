@@ -1,6 +1,8 @@
 # Mariadb Multimaster using Galera Cluster
 Setting up Mariadb multimaster replication with ease
 
+The dockerfile, entrypoint scripts can be found here: https://github.com/bramyeni/bramscripts/tree/main/microsoft/mariadb-galera and https://github.com/bramyeni/bramscripts/tree/main/microsoft/mysql8
+
 ## Pre-requisites
 Ensure Donor and Joiner nodes are able to communicate each other, otherwise see my site-site vpn setup within other repo of my github here => https://github.com/bramyeni/openvpn
 
